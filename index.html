@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./input.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="flex justify-center h-auto flex-col items-center container">
+    <div class=" w-3/5 h-80 bg-orange-400 flex justify-start flex-col items-center" >
+   <div class="flex flex-col items-center mt-10">
+    <img  class="bg-white h-24  w-80" src="./imgs/kodluyoruz.png" alt="">
+    <h3 class="text-white text-4xl mt-3">Yapılacaklar Listesi</h3>
+   
+   </div>
+   <div class="input-group mb-3 mt-5 px-5">
+    <input id="headerInput" type="text" class="form-control" placeholder="Bugün ne yapacaksın ?" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn rounded-none text-xl bg-slate-300 px-24" type="button" id="button-addon2">Ekle</button>
+  </div>
+  
+    </div>
+    <div class="   border-black w-3/5" >
+        <ul id="list" class="list-none">
+            
+           
+        </ul>    
+    </div>
+
+ 
+  
+</div>
+    
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
